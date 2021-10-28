@@ -1,0 +1,129 @@
+.main-div {
+    display: flex;
+}
+
+h1 {
+    color: #E62B1E;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'roboto';
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'roboto';
+    font-style: italic;
+}
+
+.text {
+    width: 70vw;
+    padding: 10vh;
+    text-align: center;
+}
+
+h1 {
+    padding: 3vh;
+}
+
+.img {
+    height: 80vh;
+    width: auto;
+}
+
+.img-diff {
+    display: none;
+}
+
+.abt-images {
+    height: 80vh;
+    width: auto;
+}
+
+body {
+    margin: 0px;
+}
+
+.resp-img {
+    display: none;
+}
+
+button {
+    border: solid #E62B1E;
+    background-color: white;
+    height: 8vh;
+    width: 10vw;
+    cursor: pointer;
+    text-decoration: none;
+    color: #E62B1E;
+    font-size: 17px;
+    margin: 2vw;
+}
+
+button:hover {
+    /*border: 5px #E62B1E solid;*/
+    width: 10.5vw;
+    height: 8.5vh;
+}
+
+@media screen and (max-width: 728px) {
+    .main-div {
+        display: block;
+    }
+    h1 {
+        color: #E62B1E;
+        font-size: 30px;
+        font-family: 'roboto';
+        padding: 3vh;
+    }
+    p {
+        font-size: 15px;
+        font-family: 'roboto';
+        font-style: italic;
+    }
+    .text {
+        padding: 5vh;
+        width: auto;
+        height: auto;
+        padding-top: 0%;
+        text-align: center;
+    }
+    .img-diff,
+    .img {
+        display: block;
+        width: 100vw;
+        height: auto;
+    }
+    .abt-images {
+        width: 100vw;
+        height: auto;
+    }
+    button {
+        height: 8vh;
+        width: 30vw;
+        font-size: 17px;
+        margin: 2vw;
+    }
+    button:hover {
+        /*border: 5px #E62B1E solid;*/
+        width: 30.5vw;
+        height: 8.5vh;
+    }
+    .left {
+        text-align: left;
+    }
+}
+
+.banner-div {
+    width: 100vw;
+    padding: 0%;
+    margin: 0%;
+    height: auto;
+}
+
+.banner {
+    width: 100vw;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+}
