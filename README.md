@@ -7,6 +7,8 @@ There are read-more buttons for last three sections out of which first 2 are lin
 
 No header or footer is included as it was a single responsive page assignment.
 
+I was also not sure whether to include speakers and timeline part. I have only done the about section as the assignment instructions mentioned only about that.
+
 As for the UI, I have seen the current about us page. It was really good but the whole page, in fact the whole site was covered in colorful division with no white spacing.
 This website (the one I created) has more white spacing to give it a nice, elegant look rather than adding too many microanimations and too much chaos.
 
